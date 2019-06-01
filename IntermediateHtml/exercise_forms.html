@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <form action="" method="POST">
+        <label for="firstname">First Name:</label>
+        <input type="text" name="firstname" id="firstname" placeholder="John">
+        <label for="lastname">Last Name:</label>
+        <input type="text" name="lastname" id="lastname" placeholder="Smith">
+        <br>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="other">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="yourmail@mail.com">
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Password" minlength="5">
+        <br>
+        <label for="birthday">Birthday:</label>
+        <select name="month">
+            <option value="Month">Month</option>
+        </select>
+        <select name="day">
+            <option value="Day">Day</option>
+        </select>
+        <select name="year">
+            <option value="Year">Year</option>
+        </select>
+        <br>
+        <label for="checkbox">I agree to the terms and conditions</label>
+       <input type="checkbox" name="checkbox" id="checkbox">
+        <br>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
