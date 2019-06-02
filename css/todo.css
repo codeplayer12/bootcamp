@@ -1,0 +1,11 @@
+li{
+    list-style: none;
+    border: 1px solid red;
+}
+#checkbox2{
+    color: #fff;
+    background: red;
+}
+.completed{
+    text-decoration: line-through;
+}
